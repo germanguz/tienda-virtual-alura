@@ -11,9 +11,9 @@
 .populares__card {
     background: #fdfdfd;
     display: grid;
-    grid-template-areas: 
-        "card-imagem"
-        "card-corpo";
+    grid-template-areas:
+        "card-imagen"
+        "card-base";
     grid-template-columns: 100%;
     grid-template-rows: 173px auto;
     margin-right: 1rem;
@@ -25,20 +25,20 @@
 }
 
 .populares__card___imagen {
-    grid-area: card-imagem;
+    grid-area: card-imagen;
     height: 100%;
     width: 100%;
 }
 
 .populares__card___base {
     display: grid;
-    grid-area: card-corpo;
+    grid-area: card-base;
     grid-row-gap: .5rem;
-    grid-template-areas: 
+    grid-template-areas:
         "card-header"
-        "card-contenido";
+        "card-descripcion";
     grid-template-rows: 50px auto;
-    padding: .75rem;
+    padding: 0.75rem;
 }
 
 .populares__card___titulo {
@@ -48,7 +48,7 @@
 
 .populares__card___data {
     color: #808080;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
 .populares__card___descripcion {
@@ -63,7 +63,7 @@
 }
 
 .populares__icon {
-    margin-right: .25rem;
+    margin-right: 0.25rem;
 }
 
 .populares__header {
